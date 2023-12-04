@@ -21,12 +21,12 @@ requirements:
     - llvm-openmp  # [osx]
     - cmake
     - make
-    - bcalm >= 2.2.3
+    - bcalm >=2.2.3
   host:
     - zlib
   run:
     - python >=3.8
-    - bcalm >= 2.2.3
+    - bcalm >=2.2.3
 
 test:
   commands:
